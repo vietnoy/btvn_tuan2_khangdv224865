@@ -1,0 +1,187 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.main {
+  background-color: #f0f2f5;
+  padding-bottom: 60px;
+  display: block;
+}
+.main .logo {
+  text-align: center;
+}
+.main .logo img {
+  height: 100px;
+  width: 302.77px;
+}
+.main .form {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 432px;
+  height: 630px;
+  margin: auto;
+}
+.main .form .form-header {
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 76px;
+  text-align: center;
+}
+.main .form .form-header .title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+}
+.main .form .line {
+  height: 1px;
+  background-color: rgb(217, 205, 205);
+}
+.main .form .form-body {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.main .form .form-body input, .main .form .form-body label, .main .form .form-body select {
+  height: 40px;
+  border: 1px solid rgb(217, 205, 205);
+  border-radius: 5px;
+}
+.main .form .form-body .name {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .form .form-body .name #first-name, .main .form .form-body .name #last-name {
+  width: 42%;
+  padding-left: 20px;
+}
+.main .form .form-body .dob .dob-body {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .form .form-body .dob .dob-body #day, .main .form .form-body .dob .dob-body #month, .main .form .form-body .dob .dob-body #year {
+  width: 30%;
+}
+.main .form .form-body .user {
+  margin-bottom: 10px;
+}
+.main .form .form-body .user #user-name, .main .form .form-body .user #user-password {
+  display: block;
+  margin-bottom: 10px;
+  width: 98.5%;
+}
+.main .form .form-body .gender {
+  margin-bottom: 10px;
+}
+.main .form .form-body .gender .gender-body {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .form .form-body .gender .gender-body .custom-radio {
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .form .form-body .gender .gender-body .female, .main .form .form-body .gender .gender-body .custom {
+  width: 30%;
+}
+.main .form .form-body .gender .gender-body .male {
+  width: 25%;
+}
+.main .form .form-footer {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: justify;
+}
+.main .form .form-footer p {
+  margin-bottom: 10px;
+  color: rgb(168, 157, 157);
+  font-size: 12px;
+}
+.main .form .form-footer p a {
+  text-decoration: none;
+  color: rgb(61, 61, 118);
+}
+.main .form .form-footer p a:hover {
+  text-decoration: underline;
+}
+.main .form .form-footer input[type=submit] {
+  width: 55%;
+  padding: 10px;
+  background-color: #00a400;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+}
+.main .form .form-footer .question {
+  margin-top: 20px;
+  text-align: center;
+  color: #1877f2;
+  font-size: 18px;
+}
+
+.footer {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+.footer #contentCurve {
+  height: 1px;
+  background-color: rgb(217, 205, 205);
+}
+.footer .languages a, .footer .footer-links a {
+  text-decoration: none;
+  color: #385693;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.footer .languages {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.footer .footer-links {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer .copyright {
+  color: #65676b;
+  font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+  .main .form {
+    width: 90%;
+  }
+  .main .form .form-header .title {
+    font-size: 20px;
+  }
+  .main .form .form-footer input[type=submit] {
+    font-size: 15px;
+  }
+  .footer {
+    margin: auto;
+    display: block;
+  }
+  .footer .languages a,
+  .footer .footer-links a {
+    font-size: 10px;
+    margin-right: 5px;
+  }
+}
